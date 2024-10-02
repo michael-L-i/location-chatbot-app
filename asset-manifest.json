@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/location-chatbot-app/static/css/main.667bbaba.css",
+    "main.js": "/location-chatbot-app/static/js/main.58d33701.js",
+    "static/js/453.4d7e9689.chunk.js": "/location-chatbot-app/static/js/453.4d7e9689.chunk.js",
+    "index.html": "/location-chatbot-app/index.html",
+    "main.667bbaba.css.map": "/location-chatbot-app/static/css/main.667bbaba.css.map",
+    "main.58d33701.js.map": "/location-chatbot-app/static/js/main.58d33701.js.map",
+    "453.4d7e9689.chunk.js.map": "/location-chatbot-app/static/js/453.4d7e9689.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667bbaba.css",
+    "static/js/main.58d33701.js"
+  ]
+}
