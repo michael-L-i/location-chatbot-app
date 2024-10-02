@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*CSS for title */
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(135deg, #1fbff0, #0742e2);
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.body_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  height: 35rem;
+  background-color: rgb(163, 202, 248);
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.search_bar {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  width: 62rem;
+  height: 8rem;
+  border-radius: 50px;
+  outline: none;
+  background-color: #f5f5f5;
+}
+
+.search_input {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  width: 52rem;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #f5f5f5;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button styling */
+.search_button {
+  background-color: #6e8efb;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search_button:hover {
+  background-color: #5a76d8;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* container for suggestions to appear */
+.suggestions-container {
+  height: 100em;
+  width: 85em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+}
+
+.suggestion-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 25rem; 
+  height: 25rem;
+}
+
+.suggestion-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.suggestion-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.suggestion-details h3 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  word-wrap: break-word;
+}
+
